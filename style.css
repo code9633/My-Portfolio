@@ -368,19 +368,17 @@ section{
 
  
 .progress-line.html span{
-  width: 90%;
+  width: 70%;
 }
-.progress-line.css span{
-  width: 60%;
-}
+
 .progress-line.javascript span{
   width: 50%;
 }
 .progress-line.django span{
-  width: 70%;
+  width: 60%;
 }
 .progress-line.python span{
-  width: 75%;
+  width: 85%;
 }
 .progress-line.tensorflow span{
   width: 60%;
@@ -400,22 +398,20 @@ section{
 }
 
 .progress-line.html span::after{
-  content: "90%";
+  content: "70%";
 }
-.progress-line.css span::after{
-  content: "60%";
-}
+
 .progress-line.javascript span::after{
-  content: "85%";
+  content: "50%";
 }
 .progress-line.django span::after{
-  content: "85%";
+  content: "60%";
 }
 .progress-line.python span::after{
-  content: "90%";
+  content: "85%";
 }
 .progress-line.tensorflow span::after{
-  content: "90%";
+  content: "60%";
 }
 
 .progress-line span::before{
@@ -708,11 +704,7 @@ section{
   animation-delay: calc(0.2s *var(--i));
 }
 
-.contact-icons i:hover{
-  background: #0ef;
-  color: #000;
-  box-shadow: 0 0 20px;
-}
+
 
 .contact-form form{
   position: relative;
@@ -723,8 +715,8 @@ section{
   outline: none;
   width: 90%;
   padding: 18px;
-  background: #555557;
-  color: #000;
+  color: #000000;
+  background: #cacace;
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
